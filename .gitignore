@@ -1,0 +1,25 @@
+# Configuración y caché locales de Power BI
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.pbix.autosave
+*.pbit.autosave
+
+# Credenciales y archivos locales de base de datos
+.env
+.env.*
+!.env.example
+*.credentials
+*.mdf
+*.ldf
+*.bak
+
+# Temporales y configuración del editor
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+
+# Los CSV de data/, el PBIX, el tema y sql.slnx se incluyen.

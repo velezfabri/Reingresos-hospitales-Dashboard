@@ -1,0 +1,186 @@
+{
+  "source": "data/diabetic_data.csv",
+  "diabetic_data_csv_sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97",
+  "pbix_sha256": "61cb0070f06bd08441b7e192e5fd60ca244a697cddc4347abb0b1ae648d56316",
+  "sin_filtros": true,
+  "kpis": {
+    "internaciones": 101766,
+    "pacientes_unicos": 71518,
+    "reingresos_30d": 11357,
+    "tasa_reingreso_pct": 11.159915885462727,
+    "estadia_media_dias": 4.395986871843248
+  },
+  "catalogos": {
+    "admission_type": 8,
+    "admission_source": 25,
+    "discharge_disposition": 30
+  },
+  "graficos": {
+    "tipo_admision": [
+      {
+        "admission": "Emergencia",
+        "internaciones": 53990,
+        "reingresos_30d": 6221,
+        "tasa_pct": 11.5225041674
+      },
+      {
+        "admission": "Urgente",
+        "internaciones": 18480,
+        "reingresos_30d": 2066,
+        "tasa_pct": 11.1796536797
+      },
+      {
+        "admission": "No informado",
+        "internaciones": 5291,
+        "reingresos_30d": 586,
+        "tasa_pct": 11.0754110754
+      },
+      {
+        "admission": "Programada",
+        "internaciones": 18869,
+        "reingresos_30d": 1961,
+        "tasa_pct": 10.3927076157
+      },
+      {
+        "admission": "No disponible",
+        "internaciones": 4785,
+        "reingresos_30d": 495,
+        "tasa_pct": 10.3448275862
+      },
+      {
+        "admission": "Recién nacido",
+        "internaciones": 10,
+        "reingresos_30d": 1,
+        "tasa_pct": 10.0
+      },
+      {
+        "admission": "Sin mapear",
+        "internaciones": 320,
+        "reingresos_30d": 27,
+        "tasa_pct": 8.4375
+      },
+      {
+        "admission": "Centro de trauma",
+        "internaciones": 21,
+        "reingresos_30d": 0,
+        "tasa_pct": 0.0
+      }
+    ],
+    "internaciones_previas": [
+      {
+        "previous": "0",
+        "internaciones": 67630,
+        "reingresos_30d": 5706,
+        "tasa_pct": 8.4370841343
+      },
+      {
+        "previous": "1",
+        "internaciones": 19521,
+        "reingresos_30d": 2523,
+        "tasa_pct": 12.9245428001
+      },
+      {
+        "previous": "2",
+        "internaciones": 7566,
+        "reingresos_30d": 1319,
+        "tasa_pct": 17.4332540312
+      },
+      {
+        "previous": "3+",
+        "internaciones": 7049,
+        "reingresos_30d": 1809,
+        "tasa_pct": 25.6632146404
+      }
+    ],
+    "grupo_etario": [
+      {
+        "age": "[0-10)",
+        "internaciones": 161,
+        "reingresos_30d": 3,
+        "tasa_pct": 1.8633540373
+      },
+      {
+        "age": "[10-20)",
+        "internaciones": 691,
+        "reingresos_30d": 40,
+        "tasa_pct": 5.7887120116
+      },
+      {
+        "age": "[20-30)",
+        "internaciones": 1657,
+        "reingresos_30d": 236,
+        "tasa_pct": 14.2426071213
+      },
+      {
+        "age": "[30-40)",
+        "internaciones": 3775,
+        "reingresos_30d": 424,
+        "tasa_pct": 11.2317880795
+      },
+      {
+        "age": "[40-50)",
+        "internaciones": 9685,
+        "reingresos_30d": 1027,
+        "tasa_pct": 10.6040268456
+      },
+      {
+        "age": "[50-60)",
+        "internaciones": 17256,
+        "reingresos_30d": 1668,
+        "tasa_pct": 9.6662030598
+      },
+      {
+        "age": "[60-70)",
+        "internaciones": 22483,
+        "reingresos_30d": 2502,
+        "tasa_pct": 11.1284081306
+      },
+      {
+        "age": "[70-80)",
+        "internaciones": 26068,
+        "reingresos_30d": 3069,
+        "tasa_pct": 11.7730550867
+      },
+      {
+        "age": "[80-90)",
+        "internaciones": 17197,
+        "reingresos_30d": 2078,
+        "tasa_pct": 12.0835029366
+      },
+      {
+        "age": "[90-100)",
+        "internaciones": 2793,
+        "reingresos_30d": 310,
+        "tasa_pct": 11.0991765127
+      }
+    ],
+    "duracion_estadia": [
+      {
+        "stay": "1–3 días",
+        "internaciones": 49188,
+        "reingresos_30d": 4768,
+        "tasa_pct": 9.6934211596
+      },
+      {
+        "stay": "4–7 días",
+        "internaciones": 37288,
+        "reingresos_30d": 4544,
+        "tasa_pct": 12.1862261317
+      },
+      {
+        "stay": "8+ días",
+        "internaciones": 15290,
+        "reingresos_30d": 2045,
+        "tasa_pct": 13.3747547417
+      }
+    ]
+  },
+  "pbix_inspection": {
+    "page_width": 1920,
+    "page_height": 1080,
+    "visual_count": 14,
+    "card_count": 5,
+    "clear_button_action": "ClearAllSlicers"
+  },
+  "validation_scope": "Datos recalculados desde CSV y definiciones del informe inspeccionadas. Sin ejecución de SQL Server ni del motor visual de Power BI Desktop."
+}
